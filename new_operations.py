@@ -25,10 +25,8 @@ class AdvancedCalculator:
     
     def log(self, x, base):
         """Log function."""
-        import math
         return math.log(x) / math.log(base)
     
     def sin(self, x):
         """Sin function."""
-        import math
         return math.sin(x)
